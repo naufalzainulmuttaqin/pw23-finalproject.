@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Well Soon</title>
+    <link rel="shortcut icon" href="image/Logo-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="image/Logo-01.png" alt=""></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#about">about</a>
+            <a href="#services">consult</a>
+            <a href="#doctors">doctors</a>
+            <a href="blog.html">blogs</a>
+            <a href="dashboard/login.html">Login</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="image">
+            <img src="image/main lobby-01.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Tetap Sehat, Semoga Lekas Sembuh</h3>
+            <p>Jaga kesehatanmu, Kekuatan dan dukungan orang tersayang menjadi untuk pulih. tetap kuat hadapi setiap
+                hari dengan kebahagian</p>
+            <a href="#services" class="btn">consultation<span class="fas fa-chevron-right"></span></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>about</span> us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="image/consutltation-01.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Konsultasikan Penyakit anda</h3>
+                <p>Kesehatan merupakan aspek yang krusial dalam kehidupan setiap individu, dan konsultasi penyakit
+                    memiliki peran utama dalam pemeliharaannya. Konsultasi dini menjadi kunci, karena deteksi penyakit
+                    pada tahap awal meningkatkan peluang penyembuhan.</p>
+                <p>Dokter dan tenaga kesehatan profesional memegang peran penting dalam memberikan diagnosis yang tepat
+                    dan perawatan yang sesuai.</p>
+                <a href="#services" class="btn"> Consultation <span class="fas fa-chevron-right"></span> </a>
+            </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">our <span>Consult</span></h1>
+        <div class="form">
+            <div class="card-form">
+                <div class="left">
+                    <div class="left-form">
+                        <h2>Ada Gejala? <br><br> Konsultasikan Sekarang</h2>
+                        <p>Jaga kesehatan Anda dengan konsultasi online. Ahli kesehatan kami siap memberikan panduan
+                            terbaik untuk kehidupan sehat Anda.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-form">
+                        <form action="" method="">
+                            <h2 class="sm-view">Hubungi Kami</h2>
+                            <input id="nama" type="text" placeholder="Nama">
+                            <input id="hari" type="date" placeholder="Umur">
+                            <select name="gejala" id="gejala" scrollbar>
+                                <option value="" disabled selected hidden>Pilih gejala</option>
+                                <option value="demam">Demam</option>
+                                <option value="bisul">Bisul</option>
+                                <option value="cacar">Cacar Air</option>
+                                <option value="cantengan">Cantengan</option>
+                                <option value="nyeri otot">Nyeri Otot</option>
+                                <option value="sakit perut">Sakit Perut</option>
+                                <option value="sakit kepala">Sakit Kepala</option>
+                                <option value="salah bantal">Salah Bantal</option>
+                                <option value="sakit gigi">Sakit Gigi</option>
+                                <option value="radang tenggorokan">Radang Tenggorokan</option>
+                                <option value="batuk">Batuk</option>
+                                <option value="pilek">Pilek</option>
+                            </select>
+                            <input id="telp" type="text" placeholder="Telepone" autocomplete="off">
+                            <textarea id="pesan" rows="10" placeholder="Pesan"></textarea>
+                            <button type="button" onclick="deteksiSakit()">Deteksi</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctors" id="doctors">
+        <h1 class="heading"> our <span>doctors</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/doc-1.png" alt="">
+                <h3>Maulana</h3>
+                <span>expert doctor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/doc-2.png" alt="">
+                <h3>Zainul</h3>
+                <span>expert doctor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/doc-3.png" alt="">
+                <h3>Sabda</h3>
+                <span>expert doctor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/doc-4.png" alt="">
+                <h3>Afdal</h3>
+                <span>expert doctor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> New <span>blogs</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 22 jan, 2024 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by Rokom </a>
+                    </div>
+                    <h3>pereda nyeri yang tepat</h3>
+                    <p>Obat pereda nyeri atau painkiller dapat menyebabkan efek samping jangka panjang. Kapan dan bagaimana seharusnya kita menggunakannya?</p>
+                    <a href="/blog/nyeri.html" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog5.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 9 jan, 2024 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by Rokom </a>
+                    </div>
+                    <h3>Pentingnnya Pemeriksaan kesehatan Rutin</h3>
+                    <p>Sebagian besar orang masih sangat jarang melakukan pemerikasaan</p>
+                    <a href="/blog/cekup.html" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog6.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#"> <i class="fas fa-calendar"></i> 10 jan, 2024 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by Rokom </a>
+                    </div>
+                    <h3>Makanan Beku yang Sehat</h3>
+                    <p>Makanan beku yang aman dan sehat dapat dikonsumsi dan lebih praktis sebagai stok bahan makanan. Bagaimana memeriksa keamanannya?</p>
+                    <a href="/blog/beku.html" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> gwsservice@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> gwscontact@gmail.com </a>
+                <a href="#"> <i class="fas fa-mapp-marker-alt"></i> Depok, Indonesia - 112234 </a>
+            </div>
+    </section>
+    <div class="credit"> created by <span>Kelompok 5</span> all rights reserved </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
